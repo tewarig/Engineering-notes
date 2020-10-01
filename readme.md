@@ -82,7 +82,7 @@ npm install npm@latest -g
 
 ### Installation
 
-1. Clone the repo
+1. Clone the repository
 ```sh
 git clone https://github.com/github_username/repo_name.git
 ```
