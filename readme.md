@@ -62,7 +62,7 @@ This is open source initiative to help Engineering students. As we all know ther
 
 ##### `git push`
 
-- Raise a Pull Request to the parent Repository
+- Raise a Pull Reqduest to the parent Repository
 
 ## Syncing a fork
 
@@ -79,8 +79,9 @@ This is open source initiative to help Engineering students. As we all know ther
 ##### `git push`
 
 
+## Contributors
 
-
+[![](https://opencollective.com/html-react-parser/contributors.svg?width=890&button=false)](https://github.com/tewarig/Engineering-notes/graphs/contributors)
 
 [contributors-shield]: https://img.shields.io/github/contributors/tewarig/section-f?color=orange
 [contributors-url]: https://github.com/tewarig/section-f/graphs/contributors
