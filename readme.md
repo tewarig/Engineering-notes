@@ -40,7 +40,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This is open source initiative to help Engineering students. As we all know there is tremendous amount work load on Engineering students, so take a make your lives easier this repo was created. Hope, we can take little work off your shoulders' 
+This is open source initiative to help Engineering students. As we all know there is tremendous amount work load on Engineering students, so take a make your lives easier this repo was created. Hope, we can take little work off your shoulders'. 
 
 ## How to Contribute
 
