@@ -8,8 +8,13 @@
     />
     <meta name="description" content="" />
     <meta name="author" content="" />
+    <!-- <img src="https://img.icons8.com/color/48/000000/spiral-bound-booklet.png"/> -->
+    <title> Engineering Notes</title>
 
-    <title>Engineering Notes</title>
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Bungee&family=Viga&display=swap" 
+      rel="stylesheet"
+    >
 
     <link
       rel="canonical"
@@ -23,412 +28,232 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
+    <link 
+      rel="stylesheet" 
+      type="text/css" 
+      href="./css/styles.css"
+    >
 
     <!-- Custom styles for this template -->
   </head>
 
-  <body style="background-image: url('yo.jpg');">
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="#">Engineering Notes</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarCollapse"
-        aria-controls="navbarCollapse"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a
-              class="nav-link"
-              href="https://github.com/tewarig/Engineering-notes/"
-            >
-              Contribute</a
-            >
-          </li>
-        </ul>
-      </div>
-      <div>
-        <span style="color: #fff;"
-          >Visitor counter &nbsp;
-          <img
-            src="https://counter7.stat.ovh/private/freecounterstat.php?c=z3zlfhlgp5lrt32umr3dslqhpqqrc4pw"
-            title="page counter"
-            alt="page counter"
-          />
-        </span>
-      </div>
-    </nav>
+  <body>
+    <div class="bg__div">
 
-    <main role="main" class="container">
-      <br />
-      <br /><br />
-      <br />
-
-      <div class="jumbotron">
-        <div class="row">
-          <div class="col-6 col-md-10">
-            <h1>3rd semester notes</h1>
-          </div>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top navbar__bg">
+        <a class="navbar-brand" href="#">Engineering Notes</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a
+                class="nav-link"
+                href="https://github.com/tewarig/Engineering-notes/"
+              >
+                Contribute</a
+              >
+            </li>
+          </ul>
         </div>
-        <p class="lead"></p>
+        <div>
+          <span style="color: #fff;"
+            >Visitor Counter &nbsp;
+            <img
+              src="https://counter7.stat.ovh/private/freecounterstat.php?c=z3zlfhlgp5lrt32umr3dslqhpqqrc4pw"
+              title="page counter"
+              alt="page counter"
+            />
+          </span>
+        </div>
+      </nav>
 
-        <div class="accordion" id="accordionExample">
-          <div class="card">
-            <div class="card-header" id="headingOne">
-              <h2 class="mb-0">
-                <button
-                  class="btn btn-link"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#One"
-                  aria-expanded="true"
-                  aria-controls="collapseOne"
-                >
-                  Data Structure
-                </button>
-              </h2>
-            </div>
+      <main role="main" class="container">
+        <br />
+        <br /><br />
+        <br /><br><br>
 
-            <div
-              id="One"
-              class="collapse show"
-              aria-labelledby="headingOne"
-              data-parent="#accordionExample"
-            >
-              <div class="card-body">
-                <table>
-                  <tr>
-                    <td style="padding: 15px;">
-                      contributed by seniors
-                    </td>
-                    <td>
-                      <a href="./pdf/dsa/" class="btn btn-primary">Download</a>
-                    </td>
-                  </tr>
-                </table>
-              </div>
+        <div class="jumbotron jumbotron__div">
+          <div class="row">
+            <div class="col-6 col-md-10 col-sm-10">
+              <h1>3rd Sem Notes</h1>
             </div>
           </div>
-          <div class="card">
-            <div class="card-header" id="headingTwo">
-              <h2 class="mb-0">
-                <button
-                  class="btn btn-link collapsed"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#Two"
-                  aria-expanded="false"
-                  aria-controls="collapseTwo"
-                >
-                  Cloud Computing
-                </button>
-              </h2>
-            </div>
-            <div
-              id="Two"
-              class="collapse"
-              aria-labelledby="headingTwo"
-              data-parent="#accordionExample"
-            >
-              <div class="card-body">
+          <p class="lead"></p>
+
+          <div class="accordion" id="accordionExample">
+            <div class="card accordion__div-card">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#One"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    Data Structure
+                  </button>
+                </h2>
+              </div>
+
+              <div
+                id="One"
+                class="collapse show"
+                aria-labelledby="headingOne"
+                data-parent="#accordionExample"
+              >
                 <div class="card-body">
                   <table>
                     <tr>
                       <td style="padding: 15px;">
-                        un named notes......
+                        Contribution by Seniors
                       </td>
                       <td>
-                        <a
-                          href="https://u.pcloud.link/publink/show?code=kZRoYnkZC2IvKwku0Ihf3R6Bxjb3b0MpqvzX"
-                          class="btn btn-primary"
-                          >pcloud</a
-                        >
-                      </td>
-                    </tr>
-                  </table>
-                  <table>
-                    <tr>
-                      <td style="padding: 15px;">
-                        Send by sir in group
-                      </td>
-                      <td>
-                        <a
-                          href="https://drive.google.com/drive/folders/1Wg5-8GQumulRf-V-e2LIdeuaEcwMkLJ9?usp=sharing"
-                          class="btn btn-primary"
-                          >gdrive</a
-                        >
-                      </td>
-                    </tr>
-                  </table>
-                  <table>
-                    <tr>
-                      <td style="padding: 15px;">
-                        handwritten notes✋
-                      </td>
-                      <td>
-                        <a href="./pdf/cloud/" class="btn btn-primary"
-                          >Download</a
-                        >
+                        <a href="./pdf/dsa/" class="btn btn__color">Download</a>
                       </td>
                     </tr>
                   </table>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="card">
-            <div class="card-header" id="headingThree">
-              <h2 class="mb-0">
-                <button
-                  class="btn btn-link collapsed"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#collapseThree"
-                  aria-expanded="false"
-                  aria-controls="collapseThree"
-                >
-                  Discrete Structure & Combinatorics ...
-                </button>
-              </h2>
-            </div>
-            <div
-              id="collapseThree"
-              class="collapse"
-              aria-labelledby="headingThree"
-              data-parent="#accordionExample"
-            >
-              <div class="card-body">
+
+            <div class="card accordion__div-card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#Two"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Cloud Computing
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="Two"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#accordionExample"
+              >
                 <div class="card-body">
-                  <table>
-                    <tr>
-                      <td style="padding: 15px;">
-                        All notes😅
-                      </td>
-                      <td>
-                        <a href="./pdf/maths/" class="btn btn-primary"
-                          >Download</a
-                        >
-                      </td>
-                    </tr>
-                  </table>
+                  <div class="card-body">
+                    <table>
+                      <tr>
+                        <td style="padding: 15px;">
+                          Un-named Notes
+                        </td>
+                        <td>
+                          <a
+                            href="https://u.pcloud.link/publink/show?code=kZRoYnkZC2IvKwku0Ihf3R6Bxjb3b0MpqvzX"
+                            class="btn btn__color"
+                            >Cloud</a
+                          >
+                        </td>
+                      </tr>
+                    </table>
+                    <table>
+                      <tr>
+                        <td style="padding: 15px;">
+                          Sent By Sir In Group
+                        </td>
+                        <td>
+                          <a
+                            href="https://drive.google.com/drive/folders/1Wg5-8GQumulRf-V-e2LIdeuaEcwMkLJ9?usp=sharing"
+                            class="btn btn__color"
+                            >Drive</a
+                          >
+                        </td>
+                      </tr>
+                    </table>
+                    <table>
+                      <tr>
+                        <td style="padding: 15px;">
+                          Handwritten Notes ✋
+                        </td>
+                        <td>
+                          <a href="./pdf/cloud/" class="btn btn__color"
+                            >Download</a
+                          >
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="card accordion__div-card">
+              <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Discrete Structure & Combinatorics
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseThree"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  <div class="card-body">
+                    <table>
+                      <tr>
+                        <td style="padding: 15px;">
+                          All Notes 😅
+                        </td>
+                        <td>
+                          <a href="./pdf/maths/" class="btn btn__color"
+                            >Download</a
+                          >
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="card">
-          <div class="card-header" id="headingTwo">
-            <h2 class="mb-0">
-              <button
-                class="btn btn-link collapsed"
-                type="button"
-                data-toggle="collapse"
-                data-target="#collapsefour"
-                aria-expanded="false"
-                aria-controls="collapseTwo"
-              >
-                OOPs with C++
-              </button>
-            </h2>
-          </div>
-          <div
-            id="collapsefour"
-            class="collapse"
-            aria-labelledby="headingTwo"
-            data-parent="#accordionExample"
-          >
-            <div class="card-body">
-              <table>
-                <tr>
-                  <td style="padding: 15px;">Mixed notes😅</td>
-                  <td>
-                    <a
-                      href="https://drive.google.com/drive/u/0/folders/1qdpkmg8VJSXbDZPrYX05uzcJrL30YjKd"
-                      class="btn btn-primary"
-                      >gdrive</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td style="padding: 15px;">
-                    handwritten notes✋
-                  </td>
-                  <td>
-                    <a href="./pdf/oops/" class="btn btn-primary">Download</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td style="padding: 15px;">
-                    Lecture Imp points
-                  </td>
-                  <td>
-                    <a
-                      href="https://docs.google.com/document/d/1GdzwMVq1WAOcTGc5u242IKCkHfb1vpMQZhVQ4aOjaXg/edit?usp=sharing"
-                      class="btn btn-primary"
-                      >View</a
-                    >
-                  </td>
-                </tr>
-              </table>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header" id="headingTwo">
-            <h2 class="mb-0">
-              <button
-                class="btn btn-link collapsed"
-                type="button"
-                data-toggle="collapse"
-                data-target="#collapsefive"
-                aria-expanded="false"
-                aria-controls="collapseTwo"
-              >
-                Logic Design
-              </button>
-            </h2>
-          </div>
-          <div
-            id="collapsefive"
-            class="collapse"
-            aria-labelledby="headingTwo"
-            data-parent="#accordionExample"
-          >
-            <div class="card-body">
-              <table>
-                <tr>
-                  <td style="padding: 15px;">All notes😅</td>
-                  <td>
-                    <a
-                      href="https://drive.google.com/drive/folders/1xZpPwOIPwdB2A3ogGZWf8sz3dqcuSJHh"
-                      class="btn btn-primary"
-                      >gdrive</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td style="padding: 15px;">
-                    handwritten notes😅
-                  </td>
-                  <td>
-                    <a href="./pdf/logic-design/" class="btn btn-primary"
-                      >Download</a
-                    >
-                  </td>
-                </tr>
-              </table>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header" id="headingThree">
-            <h2 class="mb-0">
-              <button
-                class="btn btn-link collapsed"
-                type="button"
-                data-toggle="collapse"
-                data-target="#collapse7"
-                aria-expanded="false"
-                aria-controls="collapseThree"
-              >
-                Download all notes😅 in zip file
-              </button>
-            </h2>
-          </div>
-          <div
-            id="collapse7"
-            class="collapse"
-            aria-labelledby="headingThree"
-            data-parent="#accordionExample"
-          >
-            <div class="card-body">
-              <div class="card-body">
-                <table>
-                  <tr>
-                    <td style="padding: 15px;">
-                      Direct clone of this from github
-                    </td>
-                    <td>
-                      <a
-                        href="https://github.com/tewarig/section-f/archive/master.zip"
-                        class="btn btn-primary"
-                        >Download(51mb)</a
-                      >
-                    </td>
-                  </tr>
-                </table>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="jumbotron">
-        <h1>Important links</h1>
-        <div class="accordion" id="accordionExample">
-          <div class="card">
-            <div class="card-header" id="headingOne">
-              <h2 class="mb-0">
-                <button
-                  class="btn btn-link"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#collapseOne"
-                  aria-expanded="true"
-                  aria-controls="collapseOne"
-                >
-                  OOPs assignment google form link
-                </button>
-              </h2>
-            </div>
-
-            <div
-              id="collapseOne"
-              class="collapse show"
-              aria-labelledby="headingOne"
-              data-parent="#accordionExample"
-            >
-              <div class="card-body">
-                <table>
-                  <tr>
-                    <td style="padding: 15px;">
-                      Add your github repo link and number of commits.
-                    </td>
-                    <td>
-                      <a
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSd7kb280n-1dLJfKxK15a5Nt8PfbUxf4o2p9vl36HubmWJdzA/viewform"
-                        class="btn btn-primary"
-                        >open</a
-                      >
-                    </td>
-                  </tr>
-                </table>
-              </div>
-            </div>
-          </div>
-          <div class="card">
+          
+          <div class="card accordion__div-card">
             <div class="card-header" id="headingTwo">
               <h2 class="mb-0">
                 <button
                   class="btn btn-link collapsed"
                   type="button"
                   data-toggle="collapse"
-                  data-target="#collapseTwo"
+                  data-target="#collapsefour"
                   aria-expanded="false"
                   aria-controls="collapseTwo"
                 >
-                  Cyber Security google form link
+                  OOPS With C++
                 </button>
               </h2>
             </div>
             <div
-              id="collapseTwo"
+              id="collapsefour"
               class="collapse"
               aria-labelledby="headingTwo"
               data-parent="#accordionExample"
@@ -436,52 +261,31 @@
               <div class="card-body">
                 <table>
                   <tr>
-                    <td style="padding: 15px;">
-                      Add your github repo link and number of commits.
-                    </td>
+                    <td style="padding: 15px;">Mixed Notes 😅</td>
                     <td>
                       <a
-                        href="https://docs.google.com/forms/d/e/1FAIpQLScpZsUqUMvU99ySesT1YLIfCkDfobgLvYf6u2mDE9tF2ZH4Yg/viewform"
-                        class="btn btn-primary"
-                        >open</a
+                        href="https://drive.google.com/drive/u/0/folders/1qdpkmg8VJSXbDZPrYX05uzcJrL30YjKd"
+                        class="btn btn__color"
+                        >Drive</a
                       >
                     </td>
                   </tr>
-                </table>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header" id="headingTwo">
-              <h2 class="mb-0">
-                <button
-                  class="btn btn-link collapsed"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#cec"
-                  aria-expanded="false"
-                  aria-controls="collapseTwo"
-                >
-                  CEC Questions
-                </button>
-              </h2>
-            </div>
-            <div
-              id="cec"
-              class="collapse"
-              aria-labelledby="headingTwo"
-              data-parent="#accordionExample"
-            >
-              <div class="card-body">
-                <table>
                   <tr>
                     <td style="padding: 15px;">
-                      CEC Questions links, click on leetcode to view all
+                      Handwritten Notes ✋
+                    </td>
+                    <td>
+                      <a href="./pdf/oops/" class="btn btn-primary">Download</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="padding: 15px;">
+                      Lecture Imp points
                     </td>
                     <td>
                       <a
-                        href="https://codesite.vercel.app/links"
-                        class="btn btn-primary"
+                        href="https://docs.google.com/document/d/1GdzwMVq1WAOcTGc5u242IKCkHfb1vpMQZhVQ4aOjaXg/edit?usp=sharing"
+                        class="btn btn__color"
                         >View</a
                       >
                     </td>
@@ -490,99 +294,24 @@
               </div>
             </div>
           </div>
-          <div class="card">
-            <div class="card-header" id="headingThree">
-              <h2 class="mb-0">
-                <button
-                  class="btn btn-link collapsed"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#collapseThree"
-                  aria-expanded="false"
-                  aria-controls="collapseThree"
-                >
-                  Mid Sem time table
-                </button>
-              </h2>
-            </div>
-            <div
-              id="collapseThree"
-              class="collapse"
-              aria-labelledby="headingThree"
-              data-parent="#accordionExample"
-            >
-              <div class="card-body">
-                <a
-                  href="./pdf/MID TERM (ODD SEMESTER) EXAMINAITON DATE SHEET.pdf"
-                  class="btn btn-primary"
-                  >View timetable</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="jumbotron">
-        <h1>Workshops/Events</h1>
-        <div class="accordion" id="accordionExample">
-          <div class="card">
-            <div class="card-header" id="headingOne">
-              <h2 class="mb-0">
-                <button
-                  class="btn btn-link"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#one"
-                  aria-expanded="true"
-                  aria-controls="collapseOne"
-                >
-                  Android Workshop
-                </button>
-              </h2>
-            </div>
-
-            <div
-              id="one"
-              class="collapse show"
-              aria-labelledby="headingOne"
-              data-parent="#accordionExample"
-            >
-              <div class="card-body">
-                <table>
-                  <tr>
-                    <td style="padding: 15px;">
-                      Workshops by noobtodev on Android
-                    </td>
-                    <td>
-                      <a
-                        href="https://noobtodev.com/workshops/android-workshop-2020"
-                        class="btn btn-primary"
-                        >More info</a
-                      >
-                    </td>
-                  </tr>
-                </table>
-              </div>
-            </div>
-          </div>
-          <div class="card">
+          
+          <div class="card accordion__div-card">
             <div class="card-header" id="headingTwo">
               <h2 class="mb-0">
                 <button
                   class="btn btn-link collapsed"
                   type="button"
                   data-toggle="collapse"
-                  data-target="#two"
+                  data-target="#collapsefive"
                   aria-expanded="false"
                   aria-controls="collapseTwo"
                 >
-                  Workshop on Entrepreneurship
+                  Logic Design
                 </button>
               </h2>
             </div>
             <div
-              id="two"
+              id="collapsefive"
               class="collapse"
               aria-labelledby="headingTwo"
               data-parent="#accordionExample"
@@ -590,12 +319,22 @@
               <div class="card-body">
                 <table>
                   <tr>
+                    <td style="padding: 15px;">All Notes 😅</td>
+                    <td>
+                      <a
+                        href="https://drive.google.com/drive/folders/1xZpPwOIPwdB2A3ogGZWf8sz3dqcuSJHh"
+                        class="btn btn__color"
+                        >Drive</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
                     <td style="padding: 15px;">
-                      workshops by TBI GEU
+                      Handwritten Notes 😅
                     </td>
                     <td>
-                      <a href="http://bit.ly/attend_tbi" class="btn btn-primary"
-                        >Apply now.</a
+                      <a href="./pdf/logic-design/" class="btn btn__color"
+                        >Download</a
                       >
                     </td>
                   </tr>
@@ -603,9 +342,301 @@
               </div>
             </div>
           </div>
+          
+          <div class="card accordion__div-card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button
+                  class="btn btn-link collapsed"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapse7"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Download All Notes 😅 In Zip
+                </button>
+              </h2>
+            </div>
+            <div
+              id="collapse7"
+              class="collapse"
+              aria-labelledby="headingThree"
+              data-parent="#accordionExample"
+            >
+              <div class="card-body">
+                <div class="card-body">
+                  <table>
+                    <tr>
+                      <td style="padding: 15px;">
+                        Direct Clone This From GitHub
+                      </td>
+                      <td>
+                        <a
+                          href="https://github.com/tewarig/section-f/archive/master.zip"
+                          class="btn btn__color"
+                          >Download(51mb)</a
+                        >
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </main>
+
+        <div class="jumbotron jumbotron__div">
+          <h1>Important links</h1>
+          <div class="accordion" id="accordionExample">
+            <div class="card accordion__div-card">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    OOPS Assignment Google Form
+                  </button>
+                </h2>
+              </div>
+
+              <div
+                id="collapseOne"
+                class="collapse show"
+                aria-labelledby="headingOne"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  <table>
+                    <tr>
+                      <td style="padding: 15px;">
+                        Add your GitHub Repo Link And Number Of Commits
+                      </td>
+                      <td>
+                        <a
+                          href="https://docs.google.com/forms/d/e/1FAIpQLSd7kb280n-1dLJfKxK15a5Nt8PfbUxf4o2p9vl36HubmWJdzA/viewform"
+                          class="btn btn__color"
+                          >Open</a
+                        >
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            
+            <div class="card accordion__div-card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Cyber Security Google Form
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseTwo"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  <table>
+                    <tr>
+                      <td style="padding: 15px;">
+                        Add Your GitHub Repo Link And Number Of Commits
+                      </td>
+                      <td>
+                        <a
+                          href="https://docs.google.com/forms/d/e/1FAIpQLScpZsUqUMvU99ySesT1YLIfCkDfobgLvYf6u2mDE9tF2ZH4Yg/viewform"
+                          class="btn btn__color"
+                          >Open</a
+                        >
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            
+            <div class="card accordion__div-card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#cec"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    CEC Questions
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="cec"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  <table>
+                    <tr>
+                      <td style="padding: 15px;">
+                        CEC Questions, Click On Leetcode To View All
+                      </td>
+                      <td>
+                        <a
+                          href="https://codesite.vercel.app/links"
+                          class="btn btn__color"
+                          >View</a
+                        >
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            
+            <div class="card accordion__div-card">
+              <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Mid-sem Timetable
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseThree"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  <a
+                    href="./pdf/MID TERM (ODD SEMESTER) EXAMINAITON DATE SHEET.pdf"
+                    class="btn btn__color"
+                    >View</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="jumbotron jumbotron__div">
+          <h1>Workshops/Events</h1>
+          <div class="accordion" id="accordionExample">
+            <div class="card accordion__div-card">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#one"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    Android Workshop
+                  </button>
+                </h2>
+              </div>
+
+              <div
+                id="one"
+                class="collapse show"
+                aria-labelledby="headingOne"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  <table>
+                    <tr>
+                      <td style="padding: 15px;">
+                        Workshop From Noob-to-dev On Android
+                      </td>
+                      <td>
+                        <a
+                          href="https://noobtodev.com/workshops/android-workshop-2020"
+                          class="btn btn__color"
+                          >More Info</a
+                        >
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            
+            <div class="card accordion__div-card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#two"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Workshop On Entrepreneurship
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="two"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  <table>
+                    <tr>
+                      <td style="padding: 15px;">
+                        Workshop By TBI GEU
+                      </td>
+                      <td>
+                        <a href="http://bit.ly/attend_tbi" class="btn btn__color"
+                          >Apply Now</a
+                        >
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          Made with <span class="heart">❤</span> by
+          <span class="text-muted" style="align-items: center;"
+            >Engineers 🤪</span
+          >
+        </div>
+      </footer>
+    </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -637,20 +668,4 @@
       crossorigin="anonymous"
     ></script>
   </body>
-  <footer class="footer">
-    <div class="container">
-      <style>
-        .heart {
-          color: #e25555;
-        }
-        .footer {
-          text-align: center;
-        }
-      </style>
-      Made with <span class="heart">❤</span> by
-      <span class="text-muted" style="align-items: center;"
-        >Engineers 🤪</span
-      >
-    </div>
-  </footer>
 </html>
