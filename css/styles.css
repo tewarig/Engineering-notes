@@ -9,11 +9,11 @@ body{
 .bg__div{
   background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
   background-attachment: fixed;
-  display: grid;
-  align-items: center;
+/*   display: grid; */
+/*   align-items: center; */
   width: 100%;
   height: 100%;
-
+  
   font-family: 'Viga', sans-serif;
   letter-spacing: 3px;
   line-height: 1.5;
@@ -22,7 +22,7 @@ body{
 .navbar__bg{
   background: #d36836;
   box-shadow: 0 10px 1rem 0 rgba(0, 0, 0, .1);
-  padding: 1rem;
+  padding: 1rem 0;
 }
 
 .navbar-brand{
