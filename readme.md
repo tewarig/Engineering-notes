@@ -3,9 +3,6 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -29,18 +26,18 @@
   </p>
 </p>
 
-
-
 <!-- TABLE OF CONTENTS -->
+
 ## Table of Contents
-* [images](https://github.com/tewarig/section-f/tree/master/images)
-* [pdf](https://github.com/tewarig/section-f/tree/master/pdf)
 
-
+- [images](https://github.com/tewarig/section-f/tree/master/images)
+- [pdf](https://github.com/tewarig/section-f/tree/master/pdf)
 
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
-This is open source initiative to help Engineering students. As we all know there is tremendous amount work load on Engineering students, so take a make your lives easier this repo was created. Hope, we can take little work off your shoulders'. 
+
+This is open source initiative to help Engineering students. As we all know there is tremendous amount work load on Engineering students, so take a make your lives easier this repo was created. Hope, we can take little work off your shoulders'.
 
 ## How to Contribute
 
@@ -48,11 +45,11 @@ This is open source initiative to help Engineering students. As we all know ther
 
 - Clone the Forked repository
 
-##### ` git clone https://github.com/<USER_NAME>/<REPO_NAME>`
+##### `git clone https://github.com/<USER_NAME>/<REPO_NAME>`
 
 - Add Scripts and necessary changes
 
-##### ` git add .`
+##### `git add .`
 
 - Commit the changes
 
@@ -78,17 +75,15 @@ This is open source initiative to help Engineering students. As we all know ther
 
 ##### `git push`
 
-
 ## Contributors
 
 [![](https://opencollective.com/html-react-parser/contributors.svg?width=890&button=false)](https://github.com/tewarig/Engineering-notes/graphs/contributors)
 
 [contributors-shield]: https://img.shields.io/github/contributors/tewarig/section-f?color=orange
 [contributors-url]: https://github.com/tewarig/section-f/graphs/contributors
-[forks-shield]:https://img.shields.io/github/forks/tewarig/section-f?color=blue&style=flat-square
+[forks-shield]: https://img.shields.io/github/forks/tewarig/section-f?color=blue&style=flat-square
 [forks-url]: https://github.com/tewarig/section-f/network/members
 [stars-shield]: https://img.shields.io/github/stars/tewarig/section-f?color=brightgreen&style=flat-square
 [stars-url]: https://github.com/tewarig/section-f/stargazers
-[issues-shield]:https://img.shields.io/github/issues/tewarig/section-f?style=flat-square
+[issues-shield]: https://img.shields.io/github/issues/tewarig/section-f?style=flat-square
 [issues-url]: https://github.com/tewarig/section-f/issues
-
