@@ -7,7 +7,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/tewarig/section-f">
-    <img src="https://sritutorials.com/wp-content/uploads/2020/01/How-to-transfer-Sticky-Notes-from-Windows-7-to-Windows-10.jpg" alt="Logo" width="120" height="120">
+    <img src="https://cdn2.iconfinder.com/data/icons/office-and-business-round-set-1/64/27-512.png" alt="Logo" width="120" height="120">
   </a>
 
   <h3 align="center">NOTES</h3>
